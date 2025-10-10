@@ -21,7 +21,7 @@ local DEFAULT_OPTIONS = {
 local function LoadFromUrl(x)
 	local BASE_USER = "gwnrdt"
 	local BASE_BRANCH = "Not-Mine"
-	local BASE_URL = "https://raw.githubusercontent.com/%s/Advanced-Decompiler-V3/%s/%s.lua"
+	local BASE_URL = "https://raw.githubusercontent.com/gwnrdt/Not-Mine/refs/heads/main/Advance.lua"
 
 	local loadSuccess, loadResult = pcall(function()
 		local formattedUrl = string.format(BASE_URL, BASE_USER, BASE_BRANCH, x)
